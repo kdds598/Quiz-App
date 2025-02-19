@@ -20,10 +20,11 @@ A **dynamic and interactive quiz application** built with **Vite + React** that 
 
 ## 📌 Installation & Setup 🛠️
 
+#  create a folder with name "quiz-app" 
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/kdds598/quiz-app.git
 cd quiz-app
+git clone https://github.com/kdds598/quiz-app.git
 npm install
 npm run dev
 ```
