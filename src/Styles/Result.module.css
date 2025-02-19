@@ -1,0 +1,152 @@
+
+.quizContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #c9d7ef;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .result {
+    background-color: white;
+    font-weight: bold;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 600px;
+    width: 100%;
+    margin-top: 30px;
+
+  }
+  
+  .quizContainer h2 {
+    font-size: 32px;
+    color: #c010d3;
+    margin-bottom: 20px;
+  }
+  
+  .result p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .result p span {
+    font-weight: bold;
+    color: #264653;
+  }
+  
+  .reattemptButtonContainer {
+    margin-top: 30px;
+  }
+  
+  .reattemptButton {
+    background-color: #c010d3;
+    color: white;
+    padding: 12px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reattemptButton:hover {
+    background-color: #d95d43;
+  }
+  
+  .result p {
+    line-height: 1.8;
+  }
+  
+  .result p:last-child {
+    font-size: 20px;
+    color:  #c010d3;
+  }
+  .headingr{ text-align: "center";
+     flex: 1 ;
+     align-self:"flex-start";
+     font-size: 24px;
+    }
+    .headingr::before{
+        content: 'You achieved';
+    }
+   .emoji{ font-size:100px ;
+    margin:10px;
+    text-align: center;
+}
+.rank{
+    font-size: 30px ;
+    margin:10px;
+    text-align: center;
+}
+
+  @media (max-width: 768px) {
+
+    .result {
+      
+        background-color: white;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 600px;
+    width: 80%;
+    margin-top: 30px;
+    }
+    }
+  @media (max-width: 521px) {
+
+
+    .reattemptButton {
+      background-color: #c010d3;
+      color: white;
+      padding: 8px 8px;
+      font-size: 14px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+
+    .result {
+      
+        background-color: white;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 600px;
+    width: 80%;
+    margin-top: 30px;
+    }
+    .gg{
+        min-width: 50%;
+    }
+    .headingr{ 
+        text-align: center;
+        flex: 1 ;
+        align-self: center;
+        font-size: 20px;
+       }
+      .emoji{ font-size:50px ;
+       margin:10px;
+       text-align: center;
+   }
+   .rank{
+       font-size: 20px ;
+       margin:10px;
+       text-align: center;
+       justify-content: center;
+       justify-self: center;
+     
+   }
+   .headingr::before{
+    content: '';
+}
+    }
