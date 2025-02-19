@@ -33,7 +33,7 @@ npm run dev
 
 The app is deployed online. Click below to access it:  
 
-🔗 **[Live Demo](#)**  
+🔗 **[Live Demo](https://quiz-app-beta-self.vercel.app/)**  
 
 ## 📌 Technologies Used 💻  
 
